@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque&family=Inter:wght@200&family=League+Spartan:wght@100&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque&family=Gulzar&family=Inter:wght@200&family=League+Spartan:wght@100&family=Noto+Nastaliq+Urdu:wght@700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+:root {
+    --firstcolor:rgb(12, 32, 16);
+    --secondcolor-font:beige;
+    --fimaly-font:'Tajawal', sans-serif;
+}
+body{
+    background: var(--secondcolor-font);
+}
+#head{
+    display: flex;
+    justify-content: space-evenly;
+    background: var(--firstcolor);
+    padding-bottom: 3.4rem;
+    margin: -2.5rem -0.5rem 0rem -0.5rem;
+}
+.pra{
+    width: 41%;
+    font-size: 3.4rem;
+    margin: 7.5rem 0rem 0rem 5rem;
+    color:var(--secondcolor-font);
+    font-family: var(--fimaly-font);
+}
+#logo1{
+    width: 45%;
+    height: 28rem;
+    opacity: 0.47;
+}
+#logo1:hover{
+    width: 60%;
+    height: 30rem;
+
+}
+.text{
+    color: var(--color-font);
+    font-family: var(--fimaly-font);
+}
+
+#continer1{
+    margin: -2.5rem -0.5rem -4rem -0.5rem;
+    padding: 2rem 0rem;
+    background: var(--secondcolor-font);
+}
+
+
+#intro{
+    margin: -0.5rem -0.5rem 0rem -0.5rem;
+    padding: 1rem 15rem;
+    background: var(--secondcolor-font);
+}
+
+#intro-pra{
+    font-size: 1.2rem;
+    color: var(--firstcolor);
+    font-family: var(--fimaly-font);
+}
+#achivement1{
+    margin: -0.5rem -0.5rem 0rem -0.5rem;
+    padding: 3rem 4rem 2rem;
+    background: var(--secondcolor-font);
+    display: flex;
+    justify-content: space-evenly;
+}
+.fig{
+    margin-top: 2rem;
+    width: 67%;
+    height: 9rem;
+    border-radius: 2rem;
+}
+.pra-achi{
+    padding: 0rem 1rem;
+    font-size: 10px;
+    font-family: var(--fimaly-font);
+}
+h4{
+    font-size: 13px;
+    padding: 0rem 1rem;
+    font-family: var(--fimaly-font);
+
+}
+.first-line-achiv{
+    box-shadow: 2px 5px 10px gray;
+    width: 30%;
+}
+.first-line-achiv:hover{
+    background: whitesmoke;
+    width: 50%;
+    box-shadow: 4px 7px 10px gray;
+    z-index: 10;
+}
+footer{
+    background: var(--firstcolor);
+    text-align: center;
+    margin: 3.5rem -0.5rem -3rem -0.5rem
+}
+
+
+
+.pra-footer{
+    padding: 2rem;
+    font-size: 1.4rem;
+    color:var(--secondcolor-font);
+    font-family: var(--fimaly-font);
+}
