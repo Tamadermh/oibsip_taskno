@@ -1,0 +1,147 @@
+header{
+    background-color: rgb(229, 229, 237);
+    height: 3rem;
+    margin: -1.12rem -1.12rem 2rem -1.5rem;
+    
+    padding-top: 0.1rem;
+    padding-left: 11.1rem;
+}
+body{
+    background: rgb(39, 39, 79);
+} 
+.continer{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+#enter-box{
+    width: 20rem;
+    background: rgb(254, 254, 254);
+    border-radius: 2px;
+    height: 22rem;
+    padding: 1.5rem;
+}
+#input1{
+    width: 19rem;
+    padding: 0.4rem;
+    border-style: solid;
+    border-color: #afa8a8;
+    border-radius: 0.4rem;
+
+}
+textarea{
+    position: relative;
+    top: 1rem;
+    width: 18.4rem;
+    height: 13rem;
+    border-color: #afa8a8;
+    border-radius: 0.4rem;
+    padding: .7rem;
+}
+#butn{
+    position: relative;
+    top: 3rem;
+    width: 20rem;
+    height: 3rem;
+    background: green;
+    border: none;
+    border-radius: .4rem;
+}
+#butn:hover{
+    background: goldenrod;
+}
+.words{
+    color: aliceblue;
+    margin-right: 9rem;
+    margin-left: 2rem;
+}
+#show-box{
+    width: 48%;
+    margin-left: -5rem;
+}
+#left-side{
+    display: flex;
+    width: 59%;
+    padding-right: 13rem;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+hr{
+    color: #84b1c7;
+    text-align: right;
+    width: 36.6rem;
+    margin-left: 2rem;
+}
+#list-cont{
+    width: 98%;
+    margin-left: 2rem;
+    
+    border-radius: .3rem;
+    height: 2.5rem;
+    padding: 1rem;
+
+}
+
+ul li{
+    width: 95%;
+    background: white;
+    list-style: none;
+    font-size: .7rem;
+    font-family: 'Borel', cursive;
+    padding: 1rem 1rem;
+    top: 1.7rem;
+    display: flex;
+    margin-top: 11px;
+    margin-left: -1rem;
+}
+li{
+    margin: 0rem 2rem 0rem 1rem;
+}
+ul li i::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    top: .9rem;
+    left: .5rem;
+    background: #7d7777;
+    transform: rotate(-45deg);
+}
+ul li i::after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    top: .9rem;
+    left: .5rem;
+    background: #7d7777;
+    transform: rotate(45deg);
+}
+ul li.done{
+    background: #7d7777;
+    text-decoration: line-through;
+}
+ul li{
+    background: white;
+    margin-bottom: 3rem;
+    width: 34.7rem;
+    list-style: none;
+    font-size: .7rem;
+    font-family: 'Borel', cursive;
+    position: relative;
+    top: 1.7rem;
+    display: flex;
+    margin-top: -32px;
+}
+
+ul li i{
+    position: absolute;
+    right: 0.5rem;
+    top: .5rem;
+    width: 2rem;
+    height: 2rem;
+    background: darkred;
+}
+i:hover{
+    background:  rgb(186, 44, 44);
+}

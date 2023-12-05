@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css" />
+    <title>To-Do-list</title>
+    
+</head>
+<body>
+    <header>
+        <h3>To Do List Web App</h3>
+    </header>
+    <div class="continer" >
+        <div id="enter-box">
+            <input type="text" id="input1" placeholder="Title">
+            <textarea id="texaer"placeholder="Discreption"></textarea>
+            <button id="butn" onclick="addTask()">Save</button>
+        </div>
+        <div id="show-box">
+            <div id="left-side">
+                <h2 class="words">Title</h2>
+                <h2 class="words">Descreption</h2>
+                <h2 class="words">Delete</h2>
+            </div>
+            <hr>
+            <!---
+            <div >
+                <h2 class="words">Delete</h2>
+            </div>-->
+            <ul id="list-cont">
+                <span></span>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
