@@ -1,0 +1,27 @@
+body {
+    padding: 3rem;
+    text-align: center;
+    background: linear-gradient(to right,rgb(2, 100, 105),pink);
+}
+h1{
+    font-family:  'Kalnia', seri;
+}
+form {
+    font-family: 'Kalnia', serif;
+    display: inline-block;
+    background:linear-gradient(to right,rgb(2, 100, 105),pink);
+    padding: 2rem;
+    border-radius: 1.7rem;
+    box-shadow: 0rem 0rem 2rem darkslategray;
+    margin: 1rem;
+}
+input{
+    border-radius: 0.47rem;
+    padding: .6rem;
+    border: none;
+}
+button{
+    border-radius: 0.47rem;
+    padding: .4rem 1rem;
+    border: none;
+}
